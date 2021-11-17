@@ -1,0 +1,168 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="css/all.min.css"/>
+    <link  rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link  rel="stylesheet" href="css/index_style.css"/>
+    <style>
+     
+    </style>
+
+</head>
+<body>
+
+
+   <div id="sidebar" class="sidebar">
+
+
+    <div class="nav-header">
+
+           <div class="nav-logo">
+          <img src="images/logo.png" alt="">
+           </div>
+
+   <div class="nav-close">
+        <i id="closeBtn" class="fa fa-align-justify"></i>
+   </div>
+
+       <div class="nav-icons">
+          <div class="strip-lang py-2">
+          <span>
+            <i class="fas fa-globe"></i>
+          </span>
+          </div>
+          <div class="strip-share py-3">
+          <span>
+            <i class="fas fa-share-alt"></i>
+          </span>
+          </div>
+      </div>
+
+    </div>
+
+
+    <div id="menuBar" class="nav-menu vh-100 text-white ">
+        
+         <div class="nav-item ">
+
+        <ul>
+          <li class="item1" ><a class="nav-category text-white" onclick='myData("trending","2")' href="#">Now playing</a></li>
+          <li class="item2" ><a class="nav-category text-white" onclick='myData("trending","3")' href="#">Popular</a></li>
+          <li class="item3" ><a class="nav-category text-white" onclick='myData("trending","4")' href="#">Top Rated</a></li>
+          <li class="item5" ><a class="nav-category text-white" onclick='myData("trending","1")' href="#">Trending</a></li>
+          <li class="item6" ><a class="nav-category text-white" onclick='myData("trending","5")' href="#">Upcoming</a></li>
+          <li class="item6" ><a class="nav-category text-white" href="#contact">Contact Us</a></li>
+        </ul>
+
+        </div>
+
+        <div class="nav-social-item">
+          <a href="#"><i class="fab fa-facebook-f text-white p-2"></i></a>
+          <a href="#"><i class="fab fa-twitter text-white p-2"></i></a>
+          <a href="#"><i class="fas fa-globe text-white p-2"></i></a>
+          <div class="pt-3">
+            <span>Copyright Â© 2019 <br>All Rights Reserved.</span>
+          </div>
+          
+        </div>
+    </div>
+
+  </div>
+
+  <section class="second">
+
+    <div class="container w-75">
+      <div class="row">
+        <div class="col-md-6"><input onkeyup="searchBtn(this.value)" id="byWordBtn" class="form-control bg-dark my-4 text-white" placeholder="get movies by word..."></div>
+        <div class="col-md-6"><input id="searchBTn" class="form-control bg-dark my-4 text-white" placeholder="search..."></div>
+      </div>
+    </div>  
+
+    
+
+  
+  <div class="container text-white text-center mb-3 ">
+
+    <div class="row" id="myRow">
+      
+  </div>
+  </div>
+</section>
+
+  <!--Contact Sec-->
+
+<section id="contact" class="last container  w-75  ">  
+	<h2 class="text-light my-5 ">ContactUs...</h2>
+	<div class="row">
+	  <div class="col-md-6">
+	<div class="form-group">
+	  <input class="form-control bg-dark my-4 text-white" id="name" placeholder="Enter Your Name">
+		<div class="alert alert-danger d-none" id="namealert" role="alert">
+		  Your Name is not valid
+		</div>
+	</div>
+  </div>
+  <div class="col-md-6">
+	<div class="form-group">
+	  <input class="form-control bg-dark my-4 text-white" id="email" placeholder="Enter Email">
+	  <div class="alert alert-danger d-none" id="emailalert" role="alert">
+		entre valid email
+	  </div>
+	</div>
+  </div>
+  <div class="col-md-6">
+	<div class="form-group">
+	  <input class="form-control bg-dark my-4 text-white" id="phone" placeholder="Enter phone">
+	  <div class="alert alert-danger d-none" id="phonealert" role="alert">
+		entre valid phone
+	  </div>
+	</div>
+  </div>
+  <div class="col-md-6">
+	<div class="form-group">
+	  <input class="form-control bg-dark my-4 text-white" id="age" placeholder="Enter Age">
+	  <div class="alert alert-danger d-none" id="agealert" role="alert" >
+		entre valid Age
+	  </div>
+	</div>
+  </div>
+  <div class="col-md-6">
+	<div class="form-group">
+	  <input class="form-control bg-dark my-4 text-white" type="password" id="password" placeholder="Enter Password">
+	  <div class="alert alert-danger d-none " id="passwordalert" role="alert">
+		entre valid password *Minimum eight characters, at least one letter and one number:*
+	  </div>
+	</div>
+  </div>
+  <div class="col-md-6">
+	<div class="form-group">
+	  <input class="form-control bg-dark my-4 text-white" type="password" id="rePassword" placeholder="Enter RePassword">
+	  <div class="alert alert-danger d-none" id="repasswordalert" role="alert">
+		entre valid Repassword
+	  </div>
+	</div>
+  </div>
+
+
+  </div>  
+	<div class="submitBtn d-flex justify-content-center">
+	<button type="submit" id="submitBtn" class="btn btn-outline-info my-2 ">Submit</button>
+  </div>  
+  </section>
+ 
+
+  
+
+
+  
+
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script src="js/index.js"></script>
+    
+
+</body>
+</html>

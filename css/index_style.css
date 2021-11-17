@@ -1,0 +1,175 @@
+
+body
+{
+    background-color: #121212;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+
+.sidebar
+{
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    z-index: 222;
+}
+.nav-header
+{
+    background-color: #f8f6f6;
+    width: 50px;
+    height: 100vh;
+    position: fixed;
+    left:150px ;
+    top: 0px;
+    
+}
+.nav-logo img
+{
+    height: 48px;
+    position: absolute;
+    top: 15px;
+    left: 11px;
+    
+}
+
+.nav-close i
+{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+.nav-icons 
+{
+    position: absolute;
+    bottom: 0%;
+    left: 35%;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.nav-item li
+{
+    padding: 10px;
+    margin-left: -20px;
+    padding-top: 15px;
+
+}
+.nav-item  ul
+{
+    margin-top: 40px;
+    
+    width: 100% !important;
+}
+.nav-menu 
+{
+    background-color: #121212;
+    width: 150px;
+    position: fixed;
+
+  
+
+}
+
+.nav-social-item  
+{
+    position: absolute;
+    bottom: 8%;
+    left: 10%;
+}
+
+.nav-menu li
+{
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 300;
+    text-decoration: none;   
+    
+}
+.nav-menu li a 
+{
+    text-decoration: none;
+    transition-duration: 1s;
+   
+}
+
+a:hover
+{
+    color:  rgb(1, 138, 138)!important ;
+    
+   
+}
+i:hover
+{
+    color: darkcyan!important ;
+    transition-duration: 1.5s;
+   
+}
+.nav-social-item span {
+color: #999;
+}
+
+
+/* second */
+
+.second  input
+{
+    border: none;
+ 
+}
+.post
+{
+   
+    text-align: center;
+    color: #000;
+    font-weight: 800;
+    position: relative;
+    overflow: hidden;
+    
+  
+}
+.caption
+{
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.details
+{
+    position: relative;
+    top:70% ;
+    transition-duration: 1.5s;
+    background-color: rgba(255,255,255,.7);
+    height: 100%;
+    
+    opacity: 0;
+
+    
+}
+.post:hover .details
+{
+    top: 0;
+    opacity: 1;
+}
+h1 ,h2 h3,h5,h6
+{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+p{
+    font-weight: 400;
+}
+
+.last input
+{
+    border: none;
+}
